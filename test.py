@@ -184,5 +184,17 @@ def removeWordFromDictionary(guessedWord, wordResult):
         else:
             removeWordByLetter(guessedWord[pos].lower())
 
-
+####
+# Simple computer player
+####
+def computer():
+    global dictionary
+    playWordle()
+    for i in range(0, 6):
+        res = makeGuess(dictionary[0])
+        if res is None:
+            print("I got it!")
+            return
+        removeWordFromDictionary(res["wordsUsed"][-1], res["wordResults"][-1])
+    print("I failed to get it")
     
