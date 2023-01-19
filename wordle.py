@@ -1,7 +1,12 @@
 ####
 # CS4811 Artificial Intelligence
 # Group Calliban
-# Project 
+# James Brouckman, Tracy Gaolese, Dasker Masker
+# Balaji Mediboin, John Mware, Colin VanDelden
+# Week 2 In-Class
+# 1/18/2023
+#
+# The computer can be run with computer()
 ####
 import math
 import random
